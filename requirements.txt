@@ -1,0 +1,9 @@
+streamlit
+scikit-learn
+joblib
+xgboost
+lightgbm
+python-docx
+nltk
+pdfplumber
+shap
