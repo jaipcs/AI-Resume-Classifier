@@ -31,11 +31,13 @@ tfidf = joblib.load("tfidf_vectorizer.pkl")
 le = joblib.load("label_encoder.pkl")
 
 # ----------------- Constants -----------------
+
 TECH_SKILLS = [
     "python","sql","machine learning","data analysis","tensorflow","keras","pytorch",
     "streamlit","sklearn","pandas","numpy","seaborn","matplotlib","deep learning",
     "nlp","cloud","azure","aws","gcp","c++","java","powerbi","excel","hadoop"
 ]
+
 ROLE_REQUIREMENTS = {
     "Data Scientist": ["python","machine learning","pandas","numpy","deep learning"],
     "AI Engineer": ["python","pytorch","tensorflow","nlp","deep learning"],
@@ -58,6 +60,7 @@ ROLE_REQUIREMENTS = {
 }
 
 # ----------------- Helper Functions -----------------
+
 def clean_text(text):
     text = str(text).lower()
     text = re.sub(r'[^a-z\s]', ' ', text)
