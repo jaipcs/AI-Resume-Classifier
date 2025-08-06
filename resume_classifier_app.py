@@ -41,6 +41,20 @@ ROLE_REQUIREMENTS = {
     "AI Engineer": ["python","pytorch","tensorflow","nlp","deep learning"],
     "Data Analyst": ["sql","excel","powerbi","data analysis","pandas"],
     "ML Engineer": ["python","scikit-learn","tensorflow","machine learning"],
+    "Machine Learning Engineer": ["ml engineer", "deep learning", "neural network", "pytorch", "tensorflow", "computer vision"],
+    "SQL Developer": ["sql", "database", "pl/sql", "stored procedure", "oracle", "mysql", "postgresql", "dbms"],
+    "React Developer": ["react", "javascript", "frontend", "web developer", "redux", "html", "css", "typescript"],
+    "Java Developer": ["java", "spring", "hibernate", "backend", "microservices", "j2ee", "servlet"],
+    "AWS Engineer": ["aws", "cloud", "ec2", "lambda", "s3", "cloudformation", "cloudwatch", "devops"],
+    "DevOps Engineer": ["devops", "ci/cd", "jenkins", "docker", "kubernetes", "ansible", "terraform", "automation"],
+    "Full Stack Developer": ["full stack", "mern", "mean", "node", "react", "angular", "express", "mongodb", "javascript"],
+    "Python Developer": ["python", "django", "flask", "rest api", "fastapi"],
+    "Mobile App Developer": ["android", "ios", "react native", "flutter", "kotlin", "swift"],
+    "Software Tester": ["testing", "qa", "selenium", "manual testing", "automation testing", "test case", "bug tracking"],
+    "Data Engineer": ["etl", "hadoop", "spark", "big data", "data pipeline", "airflow", "kafka"],
+    "Cloud Engineer": ["azure", "gcp", "cloud", "iac", "serverless", "kubernetes"],
+    "Business Analyst": ["business analyst", "requirements", "stakeholder", "gap analysis", "process mapping"],
+    "Project Manager": ["project manager", "scrum master", "agile", "pmp", "stakeholder management"]
 }
 
 # ----------------- Helper Functions -----------------
